@@ -34,7 +34,7 @@ export default function SiteArticle({ sitePreviewData }: ISiteReview) {
                 <div className='flex justify-between items-center'>
                     <div className='flex flex-col'>
                         <p className='text-custom-lightText'>{slogan}</p>
-                        <Link href={reviewLink} className='text-blue-500 font-semibold flex gap-2 items-center'>Read {name} Review <ArrowLongRightIcon width={18} /> </Link>
+                        <Link href={reviewLink} className='text-customBlue font-semibold flex gap-2 items-center'>Read {name} Review <ArrowLongRightIcon width={18} /> </Link>
                     </div>
                     <ButtonLink href={link} className='font-bold'>Visit Site</ButtonLink>
                 </div>
@@ -43,19 +43,19 @@ export default function SiteArticle({ sitePreviewData }: ISiteReview) {
             <div className='py-8 flex flex-col gap-4'>
                 <div className='flex flex-col gap-4'>
                     <div className='flex items-center gap-2'>
-                        <span className='text-blue-500'> {isFreeVersionAvailable ? <CheckIcon width={18} /> : <XMarkIcon width={18} />}</span>
+                        <span className='text-customBlue'> {isFreeVersionAvailable ? <CheckIcon width={18} /> : <XMarkIcon width={18} />}</span>
                         <span className='font-semibold'>Free Version</span>
                         <span>  - </span>
                         <span>{isFreeVersionAvailable ? 'yes' : 'No'}</span>
                     </div>
                     <div className='flex items-center gap-2'>
-                        <span className='text-blue-500'> <CheckIcon width={18} /> </span>
+                        <span className='text-customBlue'> <CheckIcon width={18} /> </span>
                         <span className='font-semibold'>Pricing</span>
                         <span>  - </span>
                         <span>{pricing}</span>
                     </div>
                     <div className='flex items-center gap-2'>
-                        <span className='text-blue-500'>  <CheckIcon width={18} /> </span>
+                        <span className='text-customBlue'>  <CheckIcon width={18} /> </span>
                         <span className='font-semibold'>Age Range</span>
                         <span>  - </span>
                         <span>{ageRange}</span>
@@ -87,13 +87,13 @@ export default function SiteArticle({ sitePreviewData }: ISiteReview) {
                 <div>
                     <h2 className='pb-4 border-b border-b-custom-gray'>Props</h2>
                     <div className='flex gap-2 flex-col pt-4'>
-                        {pros.map((pro, index) => <div key={index} className='flex items-center gap-2'> <span className='text-blue-500'><CheckIcon width={18} /></span> {pro}</div>)}
+                        {pros.map((pro, index) => <div key={index} className='flex items-center gap-2'> <span className='text-customBlue'><CheckIcon width={18} /></span> {pro}</div>)}
                     </div>
                 </div>
                 <div>
                     <h2 className='pb-4 border-b border-b-custom-gray'>Cons</h2>
                     <div className='flex gap-2 flex-col pt-4'>
-                        {cons.map((con, index) => <div key={index} className='flex items-center gap-2'> <span className='text-blue-500'><XMarkIcon width={18} /></span> {con}</div>)}
+                        {cons.map((con, index) => <div key={index} className='flex items-center gap-2'> <span className='text-customBlue'><XMarkIcon width={18} /></span> {con}</div>)}
                     </div>
                 </div>
             </div>

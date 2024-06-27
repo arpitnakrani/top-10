@@ -11,7 +11,7 @@ export default function SiteReview({ reviewData }: { reviewData: ISiteReview }) 
             <Image src={logo} alt={name} width={150} height={60} />
             <div className='flex flex-col gap-2'>
                 <div className='flex items-center'>
-                    <Link href={reviewLink} className='text-blue-500 font-semibold'>{reviewCount} Reviews by </Link> <Image src={reviewedByLogo} alt={name} width={70} height={21} className='h-4' />
+                    <Link href={reviewLink} className='text-customBlue font-semibold'>{reviewCount} Reviews by </Link> <Image src={reviewedByLogo} alt={name} width={70} height={21} className='h-4' />
                 </div>
                 <div className='font-semibold text-sm'>
                     {name} - {slogan}

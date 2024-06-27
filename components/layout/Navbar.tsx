@@ -9,7 +9,7 @@ export const Navbar = () => {
             <div className=' border-b border-customGray p-2'>
                 <div className="flex justify-center align-baseline gap-1">
                     <div className="font-hurmeGeometricSans text-sm font-normal text-center text-customDarkGray tracking-[-0.5px]">We earn a commission from brands listed on this site. This influences the order and manner in which these listings are presented.</div>
-                    {/* <a className="text-blue-500 underline">Advertising Disclosure</a> */}
+                    {/* <a className="text-customBlue underline">Advertising Disclosure</a> */}
                     &nbsp;
                     <Dropdown />
                 </div>
