@@ -1,15 +1,13 @@
 import Image from "next/image";
 import sitesData from '../blogs.json';
-import TopDatingSites from "@/components/top-dating-sites";
 import HeroBannerCard from "./_components/hero-banner-card";
 import SitesList from "./_components/sites-list";
 import { ISite, ISiteReview } from "@/types/site";
 import SiteReviewList from "./_components/site-review-list";
 import SiteExplore from "./_components/site-explore";
+import TopDatingSites from "./_components/top-dating-sites";
 
 export default function Home() {
-
-  console.log('data', sitesData);
 
   return (
     <div className="container py-4 2xl:px-10 px-2 mx-auto">
@@ -19,7 +17,6 @@ export default function Home() {
           <HeroBannerCard />
           <Image className="2xl:mr-16" src='/assets/images/bannerImage.webp' alt="banner-image" width={670} height={320} />
         </div>
-
       </section>
 
       <section className="mx-auto container_Sm mt-8">
