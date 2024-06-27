@@ -1,0 +1,38 @@
+{
+  "sites": [
+    {
+      "rank": 1,
+      "name": "eharmony",
+      "description": "Best dating site and app overall",
+      "logo": "https://example.com/path/to/eharmony-logo.png",
+      "url": "https://www.eharmony.com",
+      "reviewUrl": "https://www.example.com/read-eharmony-review",
+      "ctaText": "Visit Site",
+      "ctaUrl": "https://www.eharmony.com",
+      "reviews": "1,661 Reviews by Trustpilot",
+      "highlight": "Easy Matching"
+    },
+    {
+      "rank": 2,
+      "name": "Zoosk",
+      "description": "Best for behavioral matchmaking",
+      "logo": "https://example.com/path/to/zoosk-logo.png",
+      "url": "https://www.zoosk.com",
+      "reviewUrl": "https://www.example.com/read-zoosk-review",
+      "ctaText": "Visit Site",
+      "ctaUrl": "https://www.zoosk.com",
+      "reviews": "2,256 Reviews by Trustpilot"
+    },
+    {
+      "rank": 3,
+      "name": "SilverSingles",
+      "description": "Best for seniors",
+      "logo": "https://example.com/path/to/silversingles-logo.png",
+      "url": "https://www.silversingles.com",
+      "reviewUrl": "https://www.example.com/read-silversingles-review",
+      "ctaText": "Visit Site",
+      "ctaUrl": "https://www.silversingles.com",
+      "reviews": "536 Reviews by Trustpilot"
+    }
+  ]
+}

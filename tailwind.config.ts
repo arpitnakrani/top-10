@@ -13,6 +13,13 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        customGray: '#BDBDBD',
+        customDarkGray: '#383838',
+      },
+      fontFamily: {
+        hurmeGeometricSans: "hurmegeometricsans_no3_6 ,Gilroy,Almarai,Arial,sans-serif"
+      }
     },
   },
   plugins: [],
