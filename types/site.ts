@@ -16,14 +16,18 @@ export interface ISite {
     pros: string[];
     cons: string[];
     brandIcon: string;
+    highlight: string
+    reviewCount: number;
 }
 
 export interface ISiteReview {
     rank: number;
     logo: string;
+    link: string;
     reviewCount: number;
     reviewedByLogo: string;
     name: string;
     slogan: string;
-    isEasyMatching: boolean
+    highlight: string
+    reviewLink: string;
 }

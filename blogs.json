@@ -22,7 +22,9 @@
         "Not suitable for casual relationships"
       ],
       "brandIcon": "/assets/sites/1_brand_logo.svg",
-      "highlight": "Easy Matching"
+      "highlight": "Easy Matching",
+      "reviewedByLogo": "/assets/sites/reviewer_logo.svg",
+      "reviewCount": 1661
     }
   ]
 }
