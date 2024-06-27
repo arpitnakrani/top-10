@@ -16,6 +16,11 @@ const config: Config = {
       colors: {
         customGray: '#BDBDBD',
         customDarkGray: '#383838',
+        custom: {
+          border: '#e2e2e2',
+          gray: '#BDBDBD',
+          lightText: '#797979'
+        }
       },
       fontFamily: {
         hurmeGeometricSans: "hurmegeometricsans_no3_6 ,Gilroy,Almarai,Arial,sans-serif"

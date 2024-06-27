@@ -2,37 +2,27 @@
   "sites": [
     {
       "rank": 1,
+      "logo": "/assets/sites/1_brand_full_logo.svg",
       "name": "eharmony",
-      "description": "Best dating site and app overall",
-      "logo": "https://example.com/path/to/eharmony-logo.png",
-      "url": "https://www.eharmony.com",
-      "reviewUrl": "https://www.example.com/read-eharmony-review",
-      "ctaText": "Visit Site",
-      "ctaUrl": "https://www.eharmony.com",
+      "previewImage": "https://images.top10.com/f_auto,q_auto/v1/production/product_inspirational_images/uploads/photo/Eharmony%20(1)-min.20200114121006.jpg",
+      "slogan": "Best dating site and app overall",
+      "reviewLink": "https://www.example.com/read-eharmony-review",
+      "link": "https://www.eharmony.com",
+      "isFreeVersionAvailable": true,
+      "pricing": "From $35.90/month",
+      "ageRange": "30-44",
+      "descriptionTitle": "eharmony - Best dating site and app overall",
+      "description": " eharmony is for daters ready to find love and looking for others who are on the same page. With detailed questionnaires and profiles, compatibility scores, and icebreaker questions, it's easy to match with a potential long-term partner and initiate contact.",
+      "whyChooseDescription": "Its patented algorithms consider several factors, from personality traits to daily living habits, making it a fantastic choice to find long-term relationships. It's been around since the year 2000 and has matched over 2 million people, refining its processes along the way. ",
+      "experienceDescription": "We found it helpful to be able to specify things like your faith and morals so you can find a match on all levels: physical, mental, spiritual, and emotional. When we browsed profiles, both on mobile and desktop, we really felt like we got to know the other members, even before we started talking to them.",
       "reviews": "1,661 Reviews by Trustpilot",
+      "pros": ["Safety screening", "Sophisticated matchmaking technology"],
+      "cons": [
+        "Extensive sign-up process",
+        "Not suitable for casual relationships"
+      ],
+      "brandIcon": "/assets/sites/1_brand_logo.svg",
       "highlight": "Easy Matching"
-    },
-    {
-      "rank": 2,
-      "name": "Zoosk",
-      "description": "Best for behavioral matchmaking",
-      "logo": "https://example.com/path/to/zoosk-logo.png",
-      "url": "https://www.zoosk.com",
-      "reviewUrl": "https://www.example.com/read-zoosk-review",
-      "ctaText": "Visit Site",
-      "ctaUrl": "https://www.zoosk.com",
-      "reviews": "2,256 Reviews by Trustpilot"
-    },
-    {
-      "rank": 3,
-      "name": "SilverSingles",
-      "description": "Best for seniors",
-      "logo": "https://example.com/path/to/silversingles-logo.png",
-      "url": "https://www.silversingles.com",
-      "reviewUrl": "https://www.example.com/read-silversingles-review",
-      "ctaText": "Visit Site",
-      "ctaUrl": "https://www.silversingles.com",
-      "reviews": "536 Reviews by Trustpilot"
     }
   ]
 }

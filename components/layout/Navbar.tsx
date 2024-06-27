@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import Dropdown from '../Dropdown'
+import Dropdown from '../ui/dropdown'
 
 export const Navbar = () => {
     return (

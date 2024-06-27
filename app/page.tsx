@@ -1,7 +1,9 @@
 import Image from "next/image";
 import sitesData from '../blogs.json';
-import TopDatingSites from "@/components/TopDatingSites";
-import HeroBannerCard from "./components/HeroBannerCard";
+import TopDatingSites from "@/components/top-dating-sites";
+import HeroBannerCard from "./_components/hero-banner-card";
+import SitesList from "./_components/sites-list";
+import { ISite } from "@/types/site";
 
 export default function Home() {
 
@@ -12,10 +14,13 @@ export default function Home() {
       {/* hero section */}
       <section className="w-full relative flex">
         <HeroBannerCard />
-        <Image className="absolute" src='/assets/images/bannerImage.webp' alt="banner-image" width={670} height={320} />
+        <Image src='/assets/images/bannerImage.webp' alt="banner-image" width={670} height={320} />
 
       </section>
       {/* <TopDatingSites siteData={sitesData.sites} /> */}
+      <section className="mx-auto container_Sm mt-8">
+        <SitesList sites={sitesData.sites as unknown as ISite[]} title="Our Top 10 Best Online Dating Sites - Reviews:" />
+      </section>
     </div>
   );
 }

@@ -6,3 +6,7 @@
   font-family: "hurmegeometricsans_no3_6";
   src: url(/public/assets/fonts/HurmeGeometricSans1-Light.otf) format("woff2");
 }
+
+.container_Sm {
+  max-width: 700px;
+}
