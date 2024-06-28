@@ -1,4 +1,16 @@
 {
+  "header": {
+    "disclosureTitle": "We earn a commission from brands listed on this site. This influences the order and manner in which these listings are presented.",
+    "disclosurePopUpText": "Advertising Disclosure",
+    "disclosurePopUpHTMLDescription": "Top10.com is a free online resource that strives to offer helpful content and comparison features to our visitors. We accept advertising compensation from companies that appear on the site, which impacts the location and order in which brands (and/or their products) are presented, and also impacts the score that is assigned to it. Company listings on this page DO NOT imply endorsement. We do not feature all providers on the market. Except as expressly set forth in our Terms of Use, all representations and warranties regarding the information presented on this page are disclaimed. The information, including pricing, which appears on this site is subject to change at any time."
+  },
+  "heroBanner": {
+    "heroTitle": "Top 10 Best Online Dating Sites and Apps in 2024",
+    "authorName": "Suzannah Weiss",
+    "authorImage": "/assets/images/portfolioImage.webp",
+    "lastUpdatedDate": "Jun 17, 2024",
+    "bannerImage": "/assets/images/bannerImage.webp"
+  },
   "sites": [
     {
       "rank": 1,

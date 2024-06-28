@@ -1,6 +1,5 @@
-import Image from "next/image";
 import sitesData from '../blogs.json';
-import HeroBannerCard from "./_components/hero-banner-card";
+import HeroBanner from "./_components/hero-banner";
 import SitesList from "./_components/sites-list";
 import { ISite, ISiteReview } from "@/types/site";
 import SiteReviewList from "./_components/site-review-list";
@@ -8,19 +7,20 @@ import SiteExplore from "./_components/site-explore";
 import TopDatingSites from "./_components/top-dating-sites";
 import ArticlesSection from "./_components/article-section";
 import SiteFaq from "./_components/site-faq";
+import Header from "@/components/layout/header";
 
 export default function Home() {
 
   const siteCount = sitesData.sites.length;
-
+  const { authorImage, authorName, heroTitle, lastUpdatedDate, bannerImage } = sitesData.heroBanner
   return (
     <div className="container py-4 2xl:px-10 px-2 mx-auto">
+      <section>
+        <Header disclosurePopUpHTMLDescription={sitesData.header.disclosurePopUpHTMLDescription} disclosurePopUpText={sitesData.header.disclosurePopUpText} disclosureTitle={sitesData.header.disclosureTitle} />
+      </section>
       {/* hero section */}
       <section className="w-full">
-        <div className="relative flex items-center justify-end">
-          <HeroBannerCard sitesCount={siteCount} />
-          <Image className="2xl:mr-16" src='/assets/images/bannerImage.webp' alt="banner-image" width={670} height={320} />
-        </div>
+        <HeroBanner authorImage={authorImage} authorName={authorName} lastUpdatedDate={lastUpdatedDate} title={heroTitle} bannerImage={bannerImage} />
       </section>
 
       <section className="mx-auto container_Sm mt-8">
