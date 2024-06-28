@@ -7,9 +7,9 @@ import Link from 'next/link'
 export default function SiteReview({ reviewData }: { reviewData: ISiteReview }) {
     const { highlight, logo, name, rank, reviewCount, reviewedByLogo, slogan, reviewLink, link } = reviewData
     return (
-        <div className='px-6 py-12 flex justify-between gap-4 items-center bg-white shadow-md relative'>
+        <div className='px-6 py-12 flex justify-between gap-4 items-center bg-white shadow-md relative md:flex-nowrap flex-wrap'>
             <Image src={logo} alt={name} width={150} height={60} />
-            <div className='flex flex-col gap-2'>
+            <div className='flex flex-col gap-2 w-80'>
                 <div className='flex items-center'>
                     <Link href={reviewLink} className='text-customBlue font-semibold'>{reviewCount} Reviews by </Link> <Image src={reviewedByLogo} alt={name} width={70} height={21} className='h-4' />
                 </div>
@@ -21,9 +21,12 @@ export default function SiteReview({ reviewData }: { reviewData: ISiteReview }) 
             <div className='absolute  w-10 h-10 rounded-full border border-black flex items-center justify-center right-full text-2xl' style={{ top: '33%', left: '-3%' }}>
                 {rank}
             </div>
-            <div className='absolute top-2 -left-2 px-2 py-0.5 bg-green-900 text-white highlight_Ribbon font-semibold'>
-                {highlight}
-            </div>
+            {highlight &&
+                <div className='absolute top-2 -left-2 px-2 py-0.5 bg-green-900 text-white highlight_Ribbon font-semibold'>
+                    {highlight}
+                </div>
+            }
+
         </div>
     )
 }

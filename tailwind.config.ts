@@ -18,6 +18,7 @@ const config: Config = {
         customDarkGray: '#383838',
         customBlue: "#147DC2",
         customTextGray: "#2d2d2d",
+        customTextGrey: "#8b8b8b",
         custom: {
           border: '#e2e2e2',
           gray: '#BDBDBD',
@@ -30,6 +31,12 @@ const config: Config = {
       },
       fontFamily: {
         hurmeGeometricSans: "hurmegeometricsans_no3_6 ,Gilroy,Almarai,Arial,sans-serif"
+      },
+      height: {
+        inheritHeight: "inherit"
+      },
+      listStyleType: {
+        square: 'square'
       }
     },
   },

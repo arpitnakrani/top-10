@@ -23,3 +23,25 @@
   left: 0;
   border-color: transparent #383838 transparent transparent;
 }
+
+.faq-transition-enter {
+  transform: translateY(-40px);
+  opacity: 0;
+}
+
+.faq-transition-enter-active {
+  transform: translateY(0);
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+
+.faq-transition-exit {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.faq-transition-exit-active {
+  transform: translateY(-40px);
+  opacity: 0;
+  transition: all 0.2s ease;
+}

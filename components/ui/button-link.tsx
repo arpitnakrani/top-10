@@ -5,6 +5,6 @@ import NextLink from 'next/link'
 
 export default function ButtonLink({ children, className, href = '/', ...props }: React.AnchorHTMLAttributes<HTMLAnchorElement>) {
     return (
-        <NextLink href={href} {...props} className={cn('bg-red-500 text-white rounded-md px-10 py-2', className)}>{children}</NextLink>
+        <NextLink href={href} {...props} className={cn('bg-bgRed text-white rounded-md lg:px-10  px-5 py-2', className)}>{children}</NextLink>
     )
 }

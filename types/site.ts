@@ -31,3 +31,19 @@ export interface ISiteReview {
     highlight: string
     reviewLink: string;
 }
+
+export interface IArticle {
+    image: string;
+    title: string;
+}
+
+export interface IFaq {
+    question: string;
+    answer: string;
+}
+
+export interface IExploreMore {
+    image: string;
+    title: string;
+    buttonText: string;
+}
