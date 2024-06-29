@@ -37,6 +37,11 @@ const config: Config = {
       },
       listStyleType: {
         square: 'square'
+      },
+      container: {
+        screens:{
+          lg:'1200px'
+        }
       }
     },
   },

@@ -9,8 +9,8 @@ interface ISiteList {
 }
 export default function SitesList({ title, sites }: ISiteList) {
     return (
-        <div>
-            <h1 className='font-bold text-4xl pb-8'>{title}</h1>
+        <div className='pt-6'>
+            <h1 className='font-bold text-4xl pb-2 md:pb-8 opacity-80'>{title}</h1>
             {
                 sites.map((site) => <SiteArticle sitePreviewData={site} key={site.rank} />)
             }

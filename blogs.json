@@ -1,318 +1,393 @@
 {
-  "header": {
-    "disclosureTitle": "We earn a commission from brands listed on this site. This influences the order and manner in which these listings are presented.",
-    "disclosurePopUpText": "Advertising Disclosure",
-    "disclosurePopUpHTMLDescription": "Top10.com is a free online resource that strives to offer helpful content and comparison features to our visitors. We accept advertising compensation from companies that appear on the site, which impacts the location and order in which brands (and/or their products) are presented, and also impacts the score that is assigned to it. Company listings on this page DO NOT imply endorsement. We do not feature all providers on the market. Except as expressly set forth in our Terms of Use, all representations and warranties regarding the information presented on this page are disclaimed. The information, including pricing, which appears on this site is subject to change at any time."
-  },
-  "heroBanner": {
-    "heroTitle": "Top 10 Best Online Dating Sites and Apps in 2024",
-    "authorName": "Suzannah Weiss",
-    "authorImage": "/assets/images/portfolioImage.webp",
-    "lastUpdatedDate": "Jun 17, 2024",
-    "bannerImage": "/assets/images/bannerImage.webp"
-  },
-  "sites": [
-    {
-      "rank": 1,
-      "logo": "/assets/sites/1_brand_full_logo.svg",
-      "name": "eharmony",
-      "previewImage": "https://images.top10.com/f_auto,q_auto/v1/production/product_inspirational_images/uploads/photo/Eharmony%20(1)-min.20200114121006.jpg",
-      "slogan": "Best dating site and app overall",
-      "reviewLink": "https://www.example.com/read-eharmony-review",
-      "link": "https://www.eharmony.com",
-      "isFreeVersionAvailable": true,
-      "pricing": "From $35.90/month",
-      "ageRange": "30-44",
-      "descriptionTitle": "eharmony - Best dating site and app overall",
-      "description": " eharmony is for daters ready to find love and looking for others who are on the same page. With detailed questionnaires and profiles, compatibility scores, and icebreaker questions, it's easy to match with a potential long-term partner and initiate contact.",
-      "whyChooseDescription": "Its patented algorithms consider several factors, from personality traits to daily living habits, making it a fantastic choice to find long-term relationships. It's been around since the year 2000 and has matched over 2 million people, refining its processes along the way. ",
-      "experienceDescription": "We found it helpful to be able to specify things like your faith and morals so you can find a match on all levels: physical, mental, spiritual, and emotional. When we browsed profiles, both on mobile and desktop, we really felt like we got to know the other members, even before we started talking to them.",
-      "reviews": "1,661 Reviews by Trustpilot",
-      "pros": ["Safety screening", "Sophisticated matchmaking technology"],
-      "cons": [
-        "Extensive sign-up process",
-        "Not suitable for casual relationships"
+  "top10datingsites": {
+    "header": {
+      "disclosureTitle": "We earn a commission from brands listed on this site. This influences the order and manner in which these listings are presented.",
+      "disclosurePopUpText": "Advertising Disclosure",
+      "disclosurePopUpHTMLDescription": "Top10.com is a free online resource that strives to offer helpful content and comparison features to our visitors. We accept advertising compensation from companies that appear on the site, which impacts the location and order in which brands (and/or their products) are presented, and also impacts the score that is assigned to it. Company listings on this page DO NOT imply endorsement. We do not feature all providers on the market. Except as expressly set forth in our Terms of Use, all representations and warranties regarding the information presented on this page are disclaimed. The information, including pricing, which appears on this site is subject to change at any time.",
+      "headerLogo": "/assets/header/logo.svg"
+    },
+    "heroBanner": {
+      "heroTitle": "Top 10 Best Online Dating Sites and Apps in 2024",
+      "authorName": "Suzannah Weiss",
+      "authorImage": "/assets/images/portfolioImage.webp",
+      "lastUpdatedDate": "Jun 17, 2024",
+      "bannerImage": "/assets/images/bannerImage.webp"
+    },
+    "overview": {
+      "overviewContent": "<p class='text-base font-normal leading-7 mb-5 text-customTextGray'>Are you looking for a meaningful, lasting relationship? Are you searching for singles in your area? Online dating might be a good option for you. Many dating apps and websites offer ways to find true love. They use detailed questionnaires and sophisticated matchmaking algorithms to foster deep connections.</p><p class='text-base font-normal leading-7 mb-5 text-customTextGray'>In fact, research by the Pew Research Center shows that <a href=\"https://www.pewresearch.org/short-reads/2023/02/02/key-findings-about-online-dating-in-the-u-s/\" class='text-customBlue font-semibold'> nearly three-in-ten U.S. adults have used online dating</a> . A lot of them have formed long-term relationships and have even since tied the knot.</p><p class='text-base font-normal leading-7 mb-5 text-customTextGray'>We&apos;ve thoroughly reviewed and compared the best dating sites and apps. We looked at things like site usability, user reviews, costs, and their matching processes.</p><p class='text-base font-normal leading-7 mb-9 text-customTextGray'>Our research has resulted in a list of the top 10 best dating platforms. This list aims to make it easy and effective to find the right partner, enriching your path to a happy love life.</p>"
+    },
+    "sitesReviewListTitle": "Our Top 10 Best Online Dating Sites and Apps to Meet Singles: ",
+    "sitesListTitle": "Our Top 10 Best Online Dating Sites - Reviews:",
+    "sites": [
+      {
+        "rank": 1,
+        "logo": "/assets/sites/1_brand_full_logo.svg",
+        "name": "eharmony",
+        "previewImage": "https://images.top10.com/f_auto,q_auto/v1/production/product_inspirational_images/uploads/photo/Eharmony%20(1)-min.20200114121006.jpg",
+        "slogan": "Best dating site and app overall",
+        "reviewLink": "https://www.example.com/read-eharmony-review",
+        "link": "https://www.eharmony.com",
+        "isFreeVersionAvailable": true,
+        "pricing": "From $35.90/month",
+        "ageRange": "30-44",
+        "descriptionTitle": "eharmony - Best dating site and app overall",
+        "description": " eharmony is for daters ready to find love and looking for others who are on the same page. With detailed questionnaires and profiles, compatibility scores, and icebreaker questions, it's easy to match with a potential long-term partner and initiate contact.",
+        "whyChooseDescription": "Its patented algorithms consider several factors, from personality traits to daily living habits, making it a fantastic choice to find long-term relationships. It's been around since the year 2000 and has matched over 2 million people, refining its processes along the way. ",
+        "experienceDescription": "We found it helpful to be able to specify things like your faith and morals so you can find a match on all levels: physical, mental, spiritual, and emotional. When we browsed profiles, both on mobile and desktop, we really felt like we got to know the other members, even before we started talking to them.",
+        "reviews": "1,661 Reviews by Trustpilot",
+        "pros": ["Safety screening", "Sophisticated matchmaking technology"],
+        "cons": [
+          "Extensive sign-up process",
+          "Not suitable for casual relationships"
+        ],
+        "brandIcon": "/assets/sites/1_brand_logo.svg",
+        "highlight": "Easy Matching",
+        "reviewedByLogo": "/assets/sites/reviewer_logo.svg",
+        "reviewCount": 1661,
+        "linkLabel": "Visit Site"
+      },
+      {
+        "rank": 2,
+        "logo": "/assets/sites/2_brand_full_logo.png",
+        "name": "Zoosk",
+        "previewImage": "https://images.top10.com/f_auto,q_auto/v1/production/product_inspirational_images/uploads/photo/Zoosk.20231225111618.jpg",
+        "slogan": "A fun, feature-packed dating platform",
+        "reviewLink": "https://www.example.com/read-zoosk-review",
+        "link": "https://www.zoosk.com",
+        "isFreeVersionAvailable": true,
+        "pricing": "From $29.95/month",
+        "ageRange": "25-34",
+        "descriptionTitle": "Zoosk - A fun, feature-packed dating platform",
+        "description": "Zoosk is a dating platform that offers a fun and engaging experience with its unique features and user-friendly interface. It's perfect for those looking for a casual or serious relationship.",
+        "whyChooseDescription": "Zoosk's Behavioral Matchmaking technology learns from your actions on the site to deliver better matches. It's a great choice for those who want a dynamic and interactive dating experience.",
+        "experienceDescription": "We enjoyed the variety of communication tools available on Zoosk, including virtual gifts and video chat. The platform's design is modern and easy to navigate, making it a pleasure to use.",
+        "reviews": "2,257 Reviews by Trustpilot",
+        "pros": [
+          "Behavioral Matchmaking technology",
+          "User-friendly interface"
+        ],
+        "cons": [
+          "Some features require a subscription",
+          "Ads in the free version"
+        ],
+        "brandIcon": "/assets/sites/2_brand_logo.svg",
+        "highlight": "",
+        "reviewedByLogo": "/assets/sites/reviewer_logo.svg",
+        "reviewCount": 2257,
+        "linkLabel": "Visit Site"
+      },
+      {
+        "rank": 3,
+        "logo": "/assets/sites/3_brand_full_logo.png",
+        "name": "SilverSingles",
+        "previewImage": "https://images.top10.com/f_auto,q_auto/v1/production/product_inspirational_images/uploads/photo/Silver%20Singles-min.20200114120710.jpg",
+        "slogan": "A leading senior dating platform for 50+ singles",
+        "reviewLink": "https://www.example.com/read-silversingles-review",
+        "link": "https://www.silversingles.com",
+        "isFreeVersionAvailable": true,
+        "pricing": "From $24.95/month",
+        "ageRange": "50+",
+        "descriptionTitle": "SilverSingles - A leading senior dating platform for 50+ singles",
+        "description": "SilverSingles is designed for singles over 50 looking for companionship and love. The platform offers a safe and welcoming environment for mature daters.",
+        "whyChooseDescription": "SilverSingles' detailed personality test helps match you with compatible singles based on your preferences and lifestyle. It's a great choice for those seeking meaningful connections in their golden years.",
+        "experienceDescription": "We appreciated the focus on safety and security on SilverSingles. The platform's customer support is responsive and helpful, ensuring a positive experience for users.",
+        "reviews": "539 Reviews by Trustpilot",
+        "pros": ["Detailed personality test", "Safe and secure environment"],
+        "cons": [
+          "Limited features in the free version",
+          "Subscription required for messaging"
+        ],
+        "brandIcon": "/assets/sites/3_brand_logo.svg",
+        "highlight": "",
+        "reviewedByLogo": "/assets/sites/reviewer_logo.svg",
+        "reviewCount": 539,
+        "linkLabel": "Visit Site"
+      },
+      {
+        "rank": 4,
+        "logo": "/assets/sites/4_brand_full_logo.png",
+        "name": "EliteSingles",
+        "previewImage": "https://images.top10.com/f_auto,q_auto/v1/production/product_inspirational_images/uploads/photo/Elite%20singles.20200114120407.jpg",
+        "slogan": "Professionals looking for serious relationships",
+        "reviewLink": "https://www.example.com/read-elitesingles-review",
+        "link": "https://www.elitesingles.com",
+        "isFreeVersionAvailable": true,
+        "pricing": "From $39.95/month",
+        "ageRange": "30-50",
+        "descriptionTitle": "EliteSingles - Professionals looking for serious relationships",
+        "description": "EliteSingles is a dating platform for professionals seeking serious relationships. The platform's intelligent matchmaking algorithm ensures high-quality matches.",
+        "whyChooseDescription": "EliteSingles' focus on educated and professional singles makes it a great choice for those looking for a partner with similar ambitions and values.",
+        "experienceDescription": "We found the quality of matches on EliteSingles to be impressive. The platform's emphasis on detailed  platform's emphasis on detailed profiles and compatibility ensures meaningful connections.",
+        "reviews": "251 Reviews by Trustpilot",
+        "pros": ["Intelligent matchmaking algorithm", "High-quality matches"],
+        "cons": ["Higher subscription cost", "Limited free features"],
+        "brandIcon": "/assets/sites/4_brand_logo.svg",
+        "highlight": "",
+        "reviewedByLogo": "/assets/sites/reviewer_logo.svg",
+        "reviewCount": 251,
+        "linkLabel": "Visit Site"
+      },
+      {
+        "rank": 5,
+        "logo": "/assets/sites/5_brand_full_logo.png",
+        "name": "Stir",
+        "previewImage": "https://images.top10.com/f_auto,q_auto/v1/production/product_inspirational_images/uploads/photo/Untitleddesign271.20240114085723.png",
+        "slogan": "Where single parents come to date",
+        "reviewLink": "https://www.example.com/read-stir-review",
+        "link": "https://www.stir.com",
+        "isFreeVersionAvailable": true,
+        "pricing": "From $19.95/month",
+        "ageRange": "25-45",
+        "descriptionTitle": "Stir - Where single parents come to date",
+        "description": "Stir is a dating platform designed specifically for single parents. It offers a supportive community and features that cater to the unique needs of single parents.",
+        "whyChooseDescription": "Stir's focus on single parents makes it a great choice for those looking to connect with others who understand the challenges and joys of raising children alone.",
+        "experienceDescription": "We found Stir to be a welcoming and inclusive platform. The community is supportive, and the features are designed to make dating easier for single parents.",
+        "reviews": "Read Review",
+        "pros": ["Supportive community", "Features for single parents"],
+        "cons": ["Limited user base", "Subscription required for full access"],
+        "brandIcon": "/assets/sites/5_brand_logo.svg",
+        "highlight": "",
+        "reviewedByLogo": "/assets/sites/reviewer_logo.svg",
+        "reviewCount": 0,
+        "linkLabel": "Visit Site"
+      },
+      {
+        "rank": 6,
+        "logo": "/assets/sites/6_brand_full_logo.png",
+        "name": "Dating.com",
+        "previewImage": "https://images.top10.com/f_auto,q_auto/v1/production/product_inspirational_images/uploads/photo/DatingCom.20200702094543.jpg",
+        "slogan": "International site for singles",
+        "reviewLink": "https://www.example.com/read-dating-review",
+        "link": "https://www.dating.com",
+        "isFreeVersionAvailable": true,
+        "pricing": "From $9.99/month",
+        "ageRange": "18-35",
+        "descriptionTitle": "Dating.com - International site for singles",
+        "description": "Dating.com is an international dating platform that connects singles from around the world. It's perfect for those looking to meet people from different cultures and backgrounds.",
+        "whyChooseDescription": "Dating.com's global reach makes it a great choice for those interested in international dating. The platform offers a variety of communication tools to help you connect with singles worldwide.",
+        "experienceDescription": "We enjoyed the diverse user base on Dating.com. The platform's features are designed to facilitate international connections, making it easy to meet people from different countries.",
+        "reviews": "1,901 Reviews by Trustpilot",
+        "pros": ["Global reach", "Variety of communication tools"],
+        "cons": ["Language barriers", "Subscription required for messaging"],
+        "brandIcon": "/assets/sites/6_brand_logo.svg",
+        "highlight": "",
+        "reviewedByLogo": "/assets/sites/reviewer_logo.svg",
+        "reviewCount": 1901,
+        "linkLabel": "Visit Site"
+      },
+      {
+        "rank": 7,
+        "logo": "/assets/sites/7_brand_full_logo.png",
+        "name": "Ourtime",
+        "previewImage": "https://images.top10.com/f_auto,q_auto/v1/production/product_inspirational_images/uploads/photo/5.20230730144024.png",
+        "slogan": "For people over 50 who share your interests",
+        "reviewLink": "https://www.example.com/read-ourtime-review",
+        "link": "https://www.ourtime.com",
+        "isFreeVersionAvailable": true,
+        "pricing": "From $29.95/month",
+        "ageRange": "50+",
+        "descriptionTitle": "Ourtime - For people over 50 who share your interests",
+        "description": "Ourtime is a dating platform for singles over 50 looking for companionship and love. It offers a safe and welcoming environment for mature daters.",
+        "whyChooseDescription": "Ourtime's focus on singles over 50 makes it a great choice for those looking to connect with others who share similar interests and life experiences.",
+        "experienceDescription": "We found Ourtime to be a user-friendly platform with a supportive community. The features are designed to make dating easier for older singles.",
+        "reviews": "1,650 Reviews by Trustpilot",
+        "pros": ["User-friendly platform", "Supportive community"],
+        "cons": [
+          "Limited features in the free version",
+          "Subscription required for messaging"
+        ],
+        "brandIcon": "/assets/sites/7_brand_logo.svg",
+        "highlight": "Dating Over 50",
+        "reviewedByLogo": "/assets/sites/reviewer_logo.svg",
+        "reviewCount": 1650,
+        "linkLabel": "Visit Site"
+      },
+      {
+        "rank": 8,
+        "logo": "/assets/sites/8_brand_full_logo.png",
+        "name": "Match",
+        "previewImage": "https://images.top10.com/f_auto,q_auto/v1/production/product_inspirational_images/uploads/photo/Match.20231225111449.jpg",
+        "slogan": "Match with singles based on true compatibility",
+        "reviewLink": "https://www.example.com/read-match-review",
+        "link": "https://www.match.com",
+        "isFreeVersionAvailable": true,
+        "pricing": "From $19.95/month",
+        "ageRange": "25-45",
+        "descriptionTitle": "Match - Match with singles based on true compatibility",
+        "description": "Match is a dating platform that connects singles based on true compatibility. It offers a variety of features to help you find a meaningful relationship.",
+        "whyChooseDescription": "Match's focus on compatibility makes it a great choice for those looking for a serious relationship. The platform's detailed profiles and matching algorithm ensure high-quality matches.",
+        "experienceDescription": "We found Match to be a reliable and effective platform for finding a serious relationship. The features are designed to help you connect with compatible singles.",
+        "reviews": "1,281 Reviews by Trustpilot",
+        "pros": ["Focus on compatibility", "Detailed profiles"],
+        "cons": [
+          "Subscription required for messaging",
+          "Limited free features"
+        ],
+        "brandIcon": "/assets/sites/8_brand_logo.svg",
+        "highlight": "",
+        "reviewedByLogo": "/assets/sites/reviewer_logo.svg",
+        "reviewCount": 1281,
+        "linkLabel": "Visit Site"
+      },
+      {
+        "rank": 9,
+        "logo": "/assets/sites/9_brand_full_logo.svg",
+        "name": "BlackPeopleMeet",
+        "previewImage": "https://images.top10.com/f_auto,q_auto/v1/production/product_inspirational_images/uploads/photo/6.20230730144031.png",
+        "slogan": "Network for Black singles looking to connect",
+        "reviewLink": "https://www.example.com/read-blackpeoplemeet-review",
+        "link": "https://www.blackpeoplemeet.com",
+        "isFreeVersionAvailable": true,
+        "pricing": "From $16.75/month",
+        "ageRange": "25-45",
+        "descriptionTitle": "BlackPeopleMeet - Network for Black singles looking to connect",
+        "description": "BlackPeopleMeet is a dating platform designed for Black singles looking to connect and build meaningful relationships. It offers a supportive community and a variety of features to help you find your match.",
+        "whyChooseDescription": "BlackPeopleMeet's focus on the Black community makes it a great choice for those looking to connect with others who share similar cultural backgrounds and experiences.",
+        "experienceDescription": "We found BlackPeopleMeet to be a welcoming and inclusive platform. The community is supportive, and the features are designed to make dating easier for Black singles.",
+        "reviews": "5 Reviews by Trustpilot",
+        "pros": ["Supportive community", "Focus on Black singles"],
+        "cons": ["Limited user base", "Subscription required for full access"],
+        "brandIcon": "/assets/sites/9_brand_logo.svg",
+        "highlight": "",
+        "reviewedByLogo": "/assets/sites/reviewer_logo.svg",
+        "reviewCount": 5,
+        "linkLabel": "Visit Site"
+      },
+      {
+        "rank": 10,
+        "logo": "/assets/sites/10_brand_full_logo.png",
+        "name": "BeNaughty",
+        "previewImage": "https://images.top10.com/f_auto,q_auto/v1/production/product_inspirational_images/uploads/photo/BeNaughtyPic.20221220070443.jpg",
+        "slogan": "Easy and quick to use. Sign up in seconds.",
+        "reviewLink": "https://www.example.com/read-benaughty-review",
+        "link": "https://www.benaughty.com",
+        "isFreeVersionAvailable": true,
+        "pricing": "From $9.99/month",
+        "ageRange": "18-35",
+        "descriptionTitle": "BeNaughty - Easy and quick to use. Sign up in seconds.",
+        "description": "BeNaughty is a dating platform designed for singles looking for casual relationships. It offers a fun and easy-to-use interface, making it quick to sign up and start meeting new people.",
+        "whyChooseDescription": "BeNaughty's focus on casual dating makes it a great choice for those looking for fun and excitement without the pressure of a serious relationship.",
+        "experienceDescription": "We found BeNaughty to be a straightforward and enjoyable platform. The features are designed to make it easy to connect with other singles looking for casual relationships.",
+        "reviews": "482 Reviews by Trustpilot",
+        "pros": ["Easy to use", "Quick sign-up process"],
+        "cons": [
+          "Focus on casual relationships",
+          "Subscription required for messaging"
+        ],
+        "brandIcon": "/assets/sites/10_brand_logo.svg",
+        "highlight": "",
+        "reviewedByLogo": "/assets/sites/reviewer_logo.svg",
+        "reviewCount": 482,
+        "linkLabel": "Visit Site"
+      }
+    ],
+    "interestingArticles": {
+      "articlesTitle": "We Thought You Might Find These Articles Interesting:",
+      "articleList": [
+        {
+          "image": "/assets/images/article1.webp",
+          "title": "Insights on AI and Modern Relationships",
+          "link": "https://www.top10.com/dating/dating-as-an-introvert",
+          "linkLabel": "Read Now"
+        },
+        {
+          "image": "/assets/images/article2.webp",
+          "title": "Flirty Emojis to Help Improve Your Game",
+          "link": "https://www.top10.com/dating/dating-as-an-introvert",
+          "linkLabel": "Read Now"
+        },
+        {
+          "image": "/assets/images/article3.webp",
+          "title": "Questions To Ask on a First Date",
+          "link": "https://www.top10.com/dating/dating-as-an-introvert",
+          "linkLabel": "Read Now"
+        }
+      ]
+    },
+    "faqs": {
+      "faqsTitle": "Frequently Asked Questions",
+      "faqList": [
+        {
+          "question": "What is the most popular dating site in the US?",
+          "answer": "According to a July 2022 survey by Pew Research Center involving more than 6,000 adults, 46% of online dating users reported having experience with Tinder, making it the most commonly used app. This is followed by Match and Bumble, which have been used by approximately 31% and 28% of the survey respondents respectively."
+        },
+        {
+          "question": "Are paid dating sites better?",
+          "answer": "Paid dating sites often offer more features and better security compared to free sites. However, the effectiveness of a dating site depends on individual preferences and experiences."
+        },
+        {
+          "question": "What factors should you consider when choosing an online dating site or app?",
+          "answer": "When choosing an online dating site or app, consider factors such as user base, features, cost, and security measures. It's also important to read reviews and get recommendations from friends."
+        },
+        {
+          "question": "How can online dating apps help in narrowing down your potential matches?",
+          "answer": "Online dating apps use algorithms and filters to help users find potential matches based on their preferences, interests, and location. This can save time and increase the chances of finding a compatible partner."
+        },
+        {
+          "question": "Why is it essential to have a profile that accurately represents you on online dating platforms?",
+          "answer": "Having a profile that accurately represents you is essential because it helps attract compatible matches and sets the right expectations. Honesty and authenticity are key to building meaningful connections."
+        },
+        {
+          "question": "What is the best dating site for serious relationships?",
+          "answer": "The best dating site for serious relationships varies depending on individual preferences. Some popular options include eHarmony, Match, and OkCupid, which are known for their focus on long-term relationships."
+        }
+      ]
+    },
+    "exploreMore": {
+      "exploreMoreTitle": "Explore More Dating Services",
+      "exploreMoreList": [
+        {
+          "image": "/assets/images/exploreImg_1.webp",
+          "title": "Best Gay Dating Sites",
+          "buttonText": "Explore",
+          "link": "https://www.top10.com/dating/best-senior-dating-sites"
+        },
+        {
+          "image": "/assets/images/exploreImg_2.webp",
+          "title": "Best Senior Dating Sites",
+          "buttonText": "Explore",
+          "link": "https://www.top10.com/dating/best-senior-dating-sites"
+        },
+        {
+          "image": "/assets/images/exploreImg_3.webp",
+          "title": "Best Christian Dating Sites",
+          "buttonText": "Explore",
+          "link": "https://www.top10.com/dating/best-senior-dating-sites"
+        }
+      ]
+    },
+    "footer": {
+      "logo": "/assets/images/ftLogo.svg",
+      "copyWriteText": "Copyright © 2009 - 2024 Natural Intelligence Ltd. All Rights Reserved.",
+      "mailingAddressTitle": "Mailing address:",
+      "mailingAddress": "<p>4023 Kennett Pike #50055</p><p>Wilmington, DE 19807</p>",
+      "footerLinks": [
+        {
+          "link": "/about-us",
+          "label": "About Us"
+        },
+        {
+          "link": "/cookie-policy",
+          "label": "Cookie Policy"
+        },
+        {
+          "link": "/terms-of-use",
+          "label": "Terms of Use"
+        },
+        {
+          "link": "/privacy-policy",
+          "label": "Privacy Policy"
+        },
+        {
+          "link": "/sitemap",
+          "label": "Sitemap"
+        },
+        {
+          "link": "/partner-with-us",
+          "label": "Partner With Us"
+        }
       ],
-      "brandIcon": "/assets/sites/1_brand_logo.svg",
-      "highlight": "Easy Matching",
-      "reviewedByLogo": "/assets/sites/reviewer_logo.svg",
-      "reviewCount": 1661
-    },
-    {
-      "rank": 2,
-      "logo": "/assets/sites/2_brand_full_logo.png",
-      "name": "Zoosk",
-      "previewImage": "https://images.top10.com/f_auto,q_auto/v1/production/product_inspirational_images/uploads/photo/Zoosk.20231225111618.jpg",
-      "slogan": "A fun, feature-packed dating platform",
-      "reviewLink": "https://www.example.com/read-zoosk-review",
-      "link": "https://www.zoosk.com",
-      "isFreeVersionAvailable": true,
-      "pricing": "From $29.95/month",
-      "ageRange": "25-34",
-      "descriptionTitle": "Zoosk - A fun, feature-packed dating platform",
-      "description": "Zoosk is a dating platform that offers a fun and engaging experience with its unique features and user-friendly interface. It's perfect for those looking for a casual or serious relationship.",
-      "whyChooseDescription": "Zoosk's Behavioral Matchmaking technology learns from your actions on the site to deliver better matches. It's a great choice for those who want a dynamic and interactive dating experience.",
-      "experienceDescription": "We enjoyed the variety of communication tools available on Zoosk, including virtual gifts and video chat. The platform's design is modern and easy to navigate, making it a pleasure to use.",
-      "reviews": "2,257 Reviews by Trustpilot",
-      "pros": ["Behavioral Matchmaking technology", "User-friendly interface"],
-      "cons": [
-        "Some features require a subscription",
-        "Ads in the free version"
-      ],
-      "brandIcon": "/assets/sites/2_brand_logo.svg",
-      "highlight": "",
-      "reviewedByLogo": "/assets/sites/reviewer_logo.svg",
-      "reviewCount": 2257
-    },
-    {
-      "rank": 3,
-      "logo": "/assets/sites/3_brand_full_logo.png",
-      "name": "SilverSingles",
-      "previewImage": "https://images.top10.com/f_auto,q_auto/v1/production/product_inspirational_images/uploads/photo/Silver%20Singles-min.20200114120710.jpg",
-      "slogan": "A leading senior dating platform for 50+ singles",
-      "reviewLink": "https://www.example.com/read-silversingles-review",
-      "link": "https://www.silversingles.com",
-      "isFreeVersionAvailable": true,
-      "pricing": "From $24.95/month",
-      "ageRange": "50+",
-      "descriptionTitle": "SilverSingles - A leading senior dating platform for 50+ singles",
-      "description": "SilverSingles is designed for singles over 50 looking for companionship and love. The platform offers a safe and welcoming environment for mature daters.",
-      "whyChooseDescription": "SilverSingles' detailed personality test helps match you with compatible singles based on your preferences and lifestyle. It's a great choice for those seeking meaningful connections in their golden years.",
-      "experienceDescription": "We appreciated the focus on safety and security on SilverSingles. The platform's customer support is responsive and helpful, ensuring a positive experience for users.",
-      "reviews": "539 Reviews by Trustpilot",
-      "pros": ["Detailed personality test", "Safe and secure environment"],
-      "cons": [
-        "Limited features in the free version",
-        "Subscription required for messaging"
-      ],
-      "brandIcon": "/assets/sites/3_brand_logo.svg",
-      "highlight": "",
-      "reviewedByLogo": "/assets/sites/reviewer_logo.svg",
-      "reviewCount": 539
-    },
-    {
-      "rank": 4,
-      "logo": "/assets/sites/4_brand_full_logo.png",
-      "name": "EliteSingles",
-      "previewImage": "https://images.top10.com/f_auto,q_auto/v1/production/product_inspirational_images/uploads/photo/Elite%20singles.20200114120407.jpg",
-      "slogan": "Professionals looking for serious relationships",
-      "reviewLink": "https://www.example.com/read-elitesingles-review",
-      "link": "https://www.elitesingles.com",
-      "isFreeVersionAvailable": true,
-      "pricing": "From $39.95/month",
-      "ageRange": "30-50",
-      "descriptionTitle": "EliteSingles - Professionals looking for serious relationships",
-      "description": "EliteSingles is a dating platform for professionals seeking serious relationships. The platform's intelligent matchmaking algorithm ensures high-quality matches.",
-      "whyChooseDescription": "EliteSingles' focus on educated and professional singles makes it a great choice for those looking for a partner with similar ambitions and values.",
-      "experienceDescription": "We found the quality of matches on EliteSingles to be impressive. The platform's emphasis on detailed  platform's emphasis on detailed profiles and compatibility ensures meaningful connections.",
-      "reviews": "251 Reviews by Trustpilot",
-      "pros": ["Intelligent matchmaking algorithm", "High-quality matches"],
-      "cons": ["Higher subscription cost", "Limited free features"],
-      "brandIcon": "/assets/sites/4_brand_logo.svg",
-      "highlight": "",
-      "reviewedByLogo": "/assets/sites/reviewer_logo.svg",
-      "reviewCount": 251
-    },
-    {
-      "rank": 5,
-      "logo": "/assets/sites/5_brand_full_logo.png",
-      "name": "Stir",
-      "previewImage": "https://images.top10.com/f_auto,q_auto/v1/production/product_inspirational_images/uploads/photo/Untitleddesign271.20240114085723.png",
-      "slogan": "Where single parents come to date",
-      "reviewLink": "https://www.example.com/read-stir-review",
-      "link": "https://www.stir.com",
-      "isFreeVersionAvailable": true,
-      "pricing": "From $19.95/month",
-      "ageRange": "25-45",
-      "descriptionTitle": "Stir - Where single parents come to date",
-      "description": "Stir is a dating platform designed specifically for single parents. It offers a supportive community and features that cater to the unique needs of single parents.",
-      "whyChooseDescription": "Stir's focus on single parents makes it a great choice for those looking to connect with others who understand the challenges and joys of raising children alone.",
-      "experienceDescription": "We found Stir to be a welcoming and inclusive platform. The community is supportive, and the features are designed to make dating easier for single parents.",
-      "reviews": "Read Review",
-      "pros": ["Supportive community", "Features for single parents"],
-      "cons": ["Limited user base", "Subscription required for full access"],
-      "brandIcon": "/assets/sites/5_brand_logo.svg",
-      "highlight": "",
-      "reviewedByLogo": "/assets/sites/reviewer_logo.svg",
-      "reviewCount": 0
-    },
-    {
-      "rank": 6,
-      "logo": "/assets/sites/6_brand_full_logo.png",
-      "name": "Dating.com",
-      "previewImage": "https://images.top10.com/f_auto,q_auto/v1/production/product_inspirational_images/uploads/photo/DatingCom.20200702094543.jpg",
-      "slogan": "International site for singles",
-      "reviewLink": "https://www.example.com/read-dating-review",
-      "link": "https://www.dating.com",
-      "isFreeVersionAvailable": true,
-      "pricing": "From $9.99/month",
-      "ageRange": "18-35",
-      "descriptionTitle": "Dating.com - International site for singles",
-      "description": "Dating.com is an international dating platform that connects singles from around the world. It's perfect for those looking to meet people from different cultures and backgrounds.",
-      "whyChooseDescription": "Dating.com's global reach makes it a great choice for those interested in international dating. The platform offers a variety of communication tools to help you connect with singles worldwide.",
-      "experienceDescription": "We enjoyed the diverse user base on Dating.com. The platform's features are designed to facilitate international connections, making it easy to meet people from different countries.",
-      "reviews": "1,901 Reviews by Trustpilot",
-      "pros": ["Global reach", "Variety of communication tools"],
-      "cons": ["Language barriers", "Subscription required for messaging"],
-      "brandIcon": "/assets/sites/6_brand_logo.svg",
-      "highlight": "",
-      "reviewedByLogo": "/assets/sites/reviewer_logo.svg",
-      "reviewCount": 1901
-    },
-    {
-      "rank": 7,
-      "logo": "/assets/sites/7_brand_full_logo.png",
-      "name": "Ourtime",
-      "previewImage": "https://images.top10.com/f_auto,q_auto/v1/production/product_inspirational_images/uploads/photo/5.20230730144024.png",
-      "slogan": "For people over 50 who share your interests",
-      "reviewLink": "https://www.example.com/read-ourtime-review",
-      "link": "https://www.ourtime.com",
-      "isFreeVersionAvailable": true,
-      "pricing": "From $29.95/month",
-      "ageRange": "50+",
-      "descriptionTitle": "Ourtime - For people over 50 who share your interests",
-      "description": "Ourtime is a dating platform for singles over 50 looking for companionship and love. It offers a safe and welcoming environment for mature daters.",
-      "whyChooseDescription": "Ourtime's focus on singles over 50 makes it a great choice for those looking to connect with others who share similar interests and life experiences.",
-      "experienceDescription": "We found Ourtime to be a user-friendly platform with a supportive community. The features are designed to make dating easier for older singles.",
-      "reviews": "1,650 Reviews by Trustpilot",
-      "pros": ["User-friendly platform", "Supportive community"],
-      "cons": [
-        "Limited features in the free version",
-        "Subscription required for messaging"
-      ],
-      "brandIcon": "/assets/sites/7_brand_logo.svg",
-      "highlight": "Dating Over 50",
-      "reviewedByLogo": "/assets/sites/reviewer_logo.svg",
-      "reviewCount": 1650
-    },
-    {
-      "rank": 8,
-      "logo": "/assets/sites/8_brand_full_logo.png",
-      "name": "Match",
-      "previewImage": "https://images.top10.com/f_auto,q_auto/v1/production/product_inspirational_images/uploads/photo/Match.20231225111449.jpg",
-      "slogan": "Match with singles based on true compatibility",
-      "reviewLink": "https://www.example.com/read-match-review",
-      "link": "https://www.match.com",
-      "isFreeVersionAvailable": true,
-      "pricing": "From $19.95/month",
-      "ageRange": "25-45",
-      "descriptionTitle": "Match - Match with singles based on true compatibility",
-      "description": "Match is a dating platform that connects singles based on true compatibility. It offers a variety of features to help you find a meaningful relationship.",
-      "whyChooseDescription": "Match's focus on compatibility makes it a great choice for those looking for a serious relationship. The platform's detailed profiles and matching algorithm ensure high-quality matches.",
-      "experienceDescription": "We found Match to be a reliable and effective platform for finding a serious relationship. The features are designed to help you connect with compatible singles.",
-      "reviews": "1,281 Reviews by Trustpilot",
-      "pros": ["Focus on compatibility", "Detailed profiles"],
-      "cons": ["Subscription required for messaging", "Limited free features"],
-      "brandIcon": "/assets/sites/8_brand_logo.svg",
-      "highlight": "",
-      "reviewedByLogo": "/assets/sites/reviewer_logo.svg",
-      "reviewCount": 1281
-    },
-    {
-      "rank": 9,
-      "logo": "/assets/sites/9_brand_full_logo.svg",
-      "name": "BlackPeopleMeet",
-      "previewImage": "https://images.top10.com/f_auto,q_auto/v1/production/product_inspirational_images/uploads/photo/6.20230730144031.png",
-      "slogan": "Network for Black singles looking to connect",
-      "reviewLink": "https://www.example.com/read-blackpeoplemeet-review",
-      "link": "https://www.blackpeoplemeet.com",
-      "isFreeVersionAvailable": true,
-      "pricing": "From $16.75/month",
-      "ageRange": "25-45",
-      "descriptionTitle": "BlackPeopleMeet - Network for Black singles looking to connect",
-      "description": "BlackPeopleMeet is a dating platform designed for Black singles looking to connect and build meaningful relationships. It offers a supportive community and a variety of features to help you find your match.",
-      "whyChooseDescription": "BlackPeopleMeet's focus on the Black community makes it a great choice for those looking to connect with others who share similar cultural backgrounds and experiences.",
-      "experienceDescription": "We found BlackPeopleMeet to be a welcoming and inclusive platform. The community is supportive, and the features are designed to make dating easier for Black singles.",
-      "reviews": "5 Reviews by Trustpilot",
-      "pros": ["Supportive community", "Focus on Black singles"],
-      "cons": ["Limited user base", "Subscription required for full access"],
-      "brandIcon": "/assets/sites/9_brand_logo.svg",
-      "highlight": "",
-      "reviewedByLogo": "/assets/sites/reviewer_logo.svg",
-      "reviewCount": 5
-    },
-    {
-      "rank": 10,
-      "logo": "/assets/sites/10_brand_full_logo.png",
-      "name": "BeNaughty",
-      "previewImage": "https://images.top10.com/f_auto,q_auto/v1/production/product_inspirational_images/uploads/photo/BeNaughtyPic.20221220070443.jpg",
-      "slogan": "Easy and quick to use. Sign up in seconds.",
-      "reviewLink": "https://www.example.com/read-benaughty-review",
-      "link": "https://www.benaughty.com",
-      "isFreeVersionAvailable": true,
-      "pricing": "From $9.99/month",
-      "ageRange": "18-35",
-      "descriptionTitle": "BeNaughty - Easy and quick to use. Sign up in seconds.",
-      "description": "BeNaughty is a dating platform designed for singles looking for casual relationships. It offers a fun and easy-to-use interface, making it quick to sign up and start meeting new people.",
-      "whyChooseDescription": "BeNaughty's focus on casual dating makes it a great choice for those looking for fun and excitement without the pressure of a serious relationship.",
-      "experienceDescription": "We found BeNaughty to be a straightforward and enjoyable platform. The features are designed to make it easy to connect with other singles looking for casual relationships.",
-      "reviews": "482 Reviews by Trustpilot",
-      "pros": ["Easy to use", "Quick sign-up process"],
-      "cons": [
-        "Focus on casual relationships",
-        "Subscription required for messaging"
-      ],
-      "brandIcon": "/assets/sites/10_brand_logo.svg",
-      "highlight": "",
-      "reviewedByLogo": "/assets/sites/reviewer_logo.svg",
-      "reviewCount": 482
+      "footerDescription": "<div><p class=\"mt-4\">Top10.com is designed to help users make confident decisions online, this website contains information about a wide range of products and services. Certain details, including but not limited to prices and special offers, are provided to us directly from our partners and are dynamic and subject to change at any time without prior notice. Though based on meticulous research, the information we share does not constitute legal or professional advice or forecast, and should not be treated as such.</p><p class=\"mt-4\">Reproduction in whole or in part is strictly prohibited.</p><p>As an Amazon Associate we earn from qualifying purchases.</p></div>"
     }
-  ],
-  "articles": [
-    {
-      "image": "/assets/images/article1.webp",
-      "title": "Insights on AI and Modern Relationships"
-    },
-    {
-      "image": "/assets/images/article2.webp",
-      "title": "Flirty Emojis to Help Improve Your Game"
-    },
-    {
-      "image": "/assets/images/article3.webp",
-      "title": "Questions To Ask on a First Date"
-    }
-  ],
-  "faqs": [
-    {
-      "question": "What is the most popular dating site in the US?",
-      "answer": "According to a July 2022 survey by Pew Research Center involving more than 6,000 adults, 46% of online dating users reported having experience with Tinder, making it the most commonly used app. This is followed by Match and Bumble, which have been used by approximately 31% and 28% of the survey respondents respectively."
-    },
-    {
-      "question": "Are paid dating sites better?",
-      "answer": "Paid dating sites often offer more features and better security compared to free sites. However, the effectiveness of a dating site depends on individual preferences and experiences."
-    },
-    {
-      "question": "What factors should you consider when choosing an online dating site or app?",
-      "answer": "When choosing an online dating site or app, consider factors such as user base, features, cost, and security measures. It's also important to read reviews and get recommendations from friends."
-    },
-    {
-      "question": "How can online dating apps help in narrowing down your potential matches?",
-      "answer": "Online dating apps use algorithms and filters to help users find potential matches based on their preferences, interests, and location. This can save time and increase the chances of finding a compatible partner."
-    },
-    {
-      "question": "Why is it essential to have a profile that accurately represents you on online dating platforms?",
-      "answer": "Having a profile that accurately represents you is essential because it helps attract compatible matches and sets the right expectations. Honesty and authenticity are key to building meaningful connections."
-    },
-    {
-      "question": "What is the best dating site for serious relationships?",
-      "answer": "The best dating site for serious relationships varies depending on individual preferences. Some popular options include eHarmony, Match, and OkCupid, which are known for their focus on long-term relationships."
-    }
-  ],
-  "exploreMore": [
-    {
-      "image": "/assets/images/exploreImg_1.webp",
-      "title": "Best Gay Dating Sites",
-      "buttonText": "Explore"
-    },
-    {
-      "image": "/assets/images/exploreImg_2.webp",
-      "title": "Best Senior Dating Sites",
-      "buttonText": "Explore"
-    },
-    {
-      "image": "/assets/images/exploreImg_3.webp",
-      "title": "Best Christian Dating Sites",
-      "buttonText": "Explore"
-    }
-  ]
+  }
 }

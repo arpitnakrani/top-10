@@ -18,6 +18,7 @@ export interface ISite {
     brandIcon: string;
     highlight: string
     reviewCount: number;
+    linkLabel: string
 }
 
 export interface ISiteReview {
@@ -30,11 +31,14 @@ export interface ISiteReview {
     slogan: string;
     highlight: string
     reviewLink: string;
+    linkLabel: string
 }
 
 export interface IArticle {
     image: string;
     title: string;
+    link: string;
+    linkLabel: string
 }
 
 export interface IFaq {
@@ -46,4 +50,5 @@ export interface IExploreMore {
     image: string;
     title: string;
     buttonText: string;
+    link: string
 }

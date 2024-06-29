@@ -12,10 +12,10 @@ interface ISiteReview {
 }
 
 export default function SiteArticle({ sitePreviewData }: ISiteReview) {
-    const { ageRange, description, descriptionTitle, experienceDescription, rank, isFreeVersionAvailable, link, logo, name, previewImage, pricing, reviewLink, slogan, whyChooseDescription, cons, pros, brandIcon } = sitePreviewData
+    const { ageRange, description, descriptionTitle, experienceDescription, rank, isFreeVersionAvailable, link, logo, name, previewImage, pricing, reviewLink, slogan, whyChooseDescription, cons, pros, brandIcon, linkLabel } = sitePreviewData
     return (
-        <div>
-            <div className='flex flex-col gap-4 py-8'>
+        <div className='border-b py-8'>
+            <div className='flex flex-col gap-4'>
                 {/* preview header */}
                 <div className='flex gap-4 items-center'>
                     <div className='pr-4 border-r border-custom-border text-6xl font-extrabold text-custom-gray'>
@@ -36,7 +36,7 @@ export default function SiteArticle({ sitePreviewData }: ISiteReview) {
                         <p className='text-custom-lightText'>{slogan}</p>
                         <Link href={reviewLink} className='text-customBlue font-semibold flex gap-2 items-center'>Read {name} Review <ArrowLongRightIcon width={18} /> </Link>
                     </div>
-                    <ButtonLink href={link} className='font-bold'>Visit Site</ButtonLink>
+                    <ButtonLink href={link} className='font-bold'>{linkLabel}</ButtonLink>
                 </div>
             </div>
 
@@ -65,25 +65,25 @@ export default function SiteArticle({ sitePreviewData }: ISiteReview) {
 
 
 
-            <div>
+            <div className='px-4 md:px-0'>
                 <div className='pb-4'>
                     <h2><b>{descriptionTitle}</b></h2>
-                    <p className='pt-4'>{description}</p>
+                    <p className='pt-4 text-base leading-7 text-customTextGray'>{description}</p>
                 </div>
 
                 <div className='pb-4'>
-                    <span> <b>{`why we chose ${name}`}</b></span>
-                    <p className='inline pb-4'>{whyChooseDescription}</p>
+                    <span> <b>{`why we chose ${name}`}: &nbsp;</b></span>
+                    <p className='inline pb-4 text-base leading-7 text-customTextGray'>{whyChooseDescription}</p>
                 </div>
 
                 <div className='pb-4'>
-                    <span> <b>Our experience</b></span>
-                    <p className='inline'>{experienceDescription}</p>
+                    <span> <b>Our experience:</b>&nbsp;</span>
+                    <p className='inline text-base leading-7 text-customTextGray'>{experienceDescription}</p>
                 </div>
             </div>
 
 
-            <div className='flex gap-8 pb-8'>
+            <div className='flex gap-8 pb-8 px-4 md:px-0'>
                 <div>
                     <h2 className='pb-4 border-b border-b-custom-gray'>Props</h2>
                     <div className='flex gap-2 flex-col pt-4'>
@@ -98,12 +98,14 @@ export default function SiteArticle({ sitePreviewData }: ISiteReview) {
                 </div>
             </div>
 
-            <div className='bg-gray-100 p-2 flex justify-between items-center'>
+            <div className='bg-gray-100 p-2 flex flex-col gap-2 md:flex-row justify-between items-start md:items-center'>
                 <div className='flex gap-6  items-center'>
-                    <Image src={brandIcon} alt={name} width={35} height={35} />
+                    <div className='p-1 bg-white'>
+                        <Image src={brandIcon} alt={name} width={35} height={35} />
+                    </div>
                     <b>{name}</b>
                 </div>
-                <ButtonLink href={link} className='font-bold'>Visit Site</ButtonLink>
+                <ButtonLink href={link} className='font-bold block w-full text-center md:inline md:w-auto '>{linkLabel}</ButtonLink>
             </div>
         </div >
     )

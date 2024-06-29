@@ -6,9 +6,10 @@ import React, { useState } from 'react';
 
 interface SiteFaqProps {
     faqs: IFaq[];
+    title: string
 }
 
-function SiteFaq({ faqs }: SiteFaqProps) {
+function SiteFaq({ faqs, title }: SiteFaqProps) {
     const [openIndex, setOpenIndex] = useState<number | null>(null);
 
     const toggleFaq = (index: number) => {
@@ -18,7 +19,7 @@ function SiteFaq({ faqs }: SiteFaqProps) {
     return (
         <div className="mt-8">
             <h2 className="text-2xl font-semibold mb-6">
-                Frequently Asked Questions</h2>
+                {title}</h2>
             <div className="">
                 {faqs.map((faq, index) => (
                     <div key={index} className="border border-customGray">
