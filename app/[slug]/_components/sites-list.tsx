@@ -1,5 +1,4 @@
 import SiteArticle from '@/components/features/site-article';
-import { ISite } from '@/types/site'
 import React from 'react'
 
 

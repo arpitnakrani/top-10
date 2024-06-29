@@ -1,5 +1,4 @@
 import ButtonLink from '@/components/ui/button-link';
-import { IExploreMore } from '@/types/site';
 import Image from 'next/image'
 import React from 'react'
 

@@ -1,10 +1,9 @@
-import { ISiteReview } from '@/types/site'
 import Image from 'next/image'
 import React from 'react'
 import ButtonLink from '../ui/button-link'
 import Link from 'next/link'
 
-export default function SiteReview({ reviewData }: { reviewData: ISiteReview }) {
+export default function SiteReview({ reviewData }: { reviewData: ISite }) {
     const { highlight, logo, name, rank, reviewCount, reviewedByLogo, slogan, reviewLink, link, linkLabel } = reviewData
     return (
         <div className='relative'>

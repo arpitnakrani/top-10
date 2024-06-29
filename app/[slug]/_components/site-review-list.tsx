@@ -1,10 +1,9 @@
 'use client'
 import SiteReview from "@/components/features/site-review";
-import { ISiteReview } from "@/types/site";
 import { useState } from "react";
 
 interface ISiteList {
-    siteReviews: ISiteReview[];
+    siteReviews: ISite[];
     title: string;
 }
 export default function SiteReviewList({ siteReviews, title }: ISiteList) {
@@ -17,7 +16,7 @@ export default function SiteReviewList({ siteReviews, title }: ISiteList) {
             <div>
                 <h3 className='text-xl font-bold text-customTextGray pb-4 md:py-0'>{title}</h3>
                 <ul className="pl-5 mb-8 list-square text-customBlue">
-                    {siteReviews.map((site: ISiteReview) => (
+                    {siteReviews.map((site: ISite) => (
                         <li key={site.rank} className="mb-2">
                             <a href={site.link} className="font-semibold hover:underline">
                                 {site.name}

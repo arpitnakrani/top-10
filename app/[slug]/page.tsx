@@ -1,7 +1,6 @@
-import jsonData from '../../blogs.json';
+import jsonData from '../../content.json';
 import HeroBanner from "./_components/hero-banner";
 import SitesList from "./_components/sites-list";
-import { ISite, ISiteReview } from "@/types/site";
 import SiteReviewList from "./_components/site-review-list";
 import SiteExplore from "./_components/site-explore";
 import TopDatingSites from "./_components/overview";
@@ -9,7 +8,9 @@ import InterestingArticlesSection from "./_components/interesting-article-sectio
 import SiteFaq from "./_components/site-faq";
 import Header from "@/components/layout/header";
 import { redirect } from 'next/navigation'
-import Footer from '@/components/layout/Footer';
+import Footer from '@/components/layout/footer';
+
+const jsonDataTyped: IJsonData = jsonData;
 
 export default function Home({ params }: { params: { slug: string }, searchParams: {} }) {
   //getting slug from URL;
@@ -17,7 +18,7 @@ export default function Home({ params }: { params: { slug: string }, searchParam
 
   //right now as i do not have any backend so i will get the data from json file created locally.
   const { slug } = params
-  const pageData = jsonData[slug]
+  const pageData = jsonDataTyped[slug];
 
   if (!pageData) {
     redirect('/')
@@ -29,7 +30,7 @@ export default function Home({ params }: { params: { slug: string }, searchParam
         <Header disclosurePopUpHTMLDescription={pageData.header.disclosurePopUpHTMLDescription} disclosurePopUpText={pageData.header.disclosurePopUpText} disclosureTitle={pageData.header.disclosureTitle} headerLogo={pageData.header.headerLogo} />
       </section>
       {/* hero section */}
-      <section className="container mx-auto">
+      <section className="container mx-auto horizontal_Spacing">
         <HeroBanner authorImage={authorImage} authorName={authorName} lastUpdatedDate={lastUpdatedDate} title={heroTitle} bannerImage={bannerImage} />
       </section>
 
@@ -38,7 +39,7 @@ export default function Home({ params }: { params: { slug: string }, searchParam
       </section>
 
       <section className='mx-auto container_Sm section_Divider horizontal_Spacing bg-zinc-100 md:bg-transparent'>
-        <SiteReviewList siteReviews={pageData.sites as unknown as ISiteReview[]} title={pageData.sitesReviewListTitle} />
+        <SiteReviewList siteReviews={pageData.sites} title={pageData.sitesReviewListTitle} />
       </section>
 
       <section className="mx-auto container_Sm section_Divider horizontal_Spacing">
@@ -46,7 +47,7 @@ export default function Home({ params }: { params: { slug: string }, searchParam
       </section>
 
       <section className="mx-auto container_Sm section_Divider horizontal_Spacing">
-        <SitesList sites={pageData.sites as unknown as ISite[]} title={pageData.sitesListTitle} />
+        <SitesList sites={pageData.sites} title={pageData.sitesListTitle} />
       </section>
 
       <section className="mx-auto container_Sm section_Divider horizontal_Spacing">

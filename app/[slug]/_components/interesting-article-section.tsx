@@ -1,9 +1,8 @@
 import ButtonLink from "@/components/ui/button-link";
-import { IArticle } from "@/types/site";
 import Image from "next/image";
 
 interface IInterestingArticlesSection {
-    articles: IArticle[];
+    articles: IInterestingArticle[];
     title: string;
 }
 export default function InterestingArticlesSection({ articles, title }: IInterestingArticlesSection) {

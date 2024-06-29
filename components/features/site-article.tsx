@@ -4,7 +4,6 @@ import React from 'react'
 import ButtonLink from '../ui/button-link';
 import Link from 'next/link';
 import { CheckIcon, XMarkIcon } from '@heroicons/react/24/outline';
-import { ISite } from '@/types/site';
 import { ArrowLongRightIcon } from '@heroicons/react/16/solid';
 
 interface ISiteReview {

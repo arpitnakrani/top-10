@@ -22,7 +22,7 @@ const Header = (props: IHeader) => {
 
                 </div>
             </div>
-            <div className="mx-auto container py-4 px-4 md:px-0">
+            <div className="mx-auto container py-4  horizontal_Spacing">
                 <Link href=''>
                     <Image src={headerLogo} alt="Logo" width={150} height={50} />
                 </Link>
